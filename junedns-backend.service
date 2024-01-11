@@ -1,0 +1,13 @@
+[Unit]
+Description=JuNeDNS Backend
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/etc/junedns/junedns-backend				#Binary execution
+#ExecStart=/usr/bin/node /etc/junedns_backend/backend.js	#Source code execution
+Restart=always
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target

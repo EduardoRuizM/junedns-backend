@@ -1,0 +1,27 @@
+{
+  "name": "junedns-backend",
+  "version": "2.1.0",
+  "author": "Eduardo Ruiz <eruiz@dataclick.es> (https://www.dataclick.es)",
+  "description": "Dataclick Olimpo - JuNeDNS Backend",
+  "keywords": [
+    "dns", "dns server", "dnssec", "spf", "dkim", "dmarc", "tls over https", "dot", "dns over https", "doh", "letsencrypt", "ipv6", "udp"
+  ],
+  "license": "MIT",
+  "main": "backend.js",
+  "dependencies": {
+    "mysql": ">=2.18.1"
+  },
+  "homepage": "https://www.junedns.com",
+  "bugs": {
+    "url": "https://github.com/EduardoRuizM/junedns-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EduardoRuizM/junedns-backend.git"
+  },
+  "scripts": {
+    "start": "node backend.js",
+    "build": "echo \"Error: rename package.json and use package.compile.json to compile JuNeDNS Backend\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
