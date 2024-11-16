@@ -1,16 +1,15 @@
 <p align="center">
-  <a href="https://junedns.com"><img src="logo.png" title="JuNeDNS Backend" width="570" height="300" /></a>
+  <a href="https://github.com/EduardoRuizM/junedns-backend"><img src="logo.png" title="JuNeDNS Backend" width="570" height="300"></a>
 </p>
 <h1 align="center">
   <a href="https://github.com/EduardoRuizM/junedns-backend">EduardoRuizM/junedns-backend</a>
 </h1>
 <p align="center">
-  Dataclick Olimpo <a href="https://junedns.com">☀️JuNeDNS Backend</a>
+  Dataclick Olimpo <a href="https://github.com/EduardoRuizM/junedns-backend">☀️JuNeDNS Backend</a>
   Safe, Lightweight and Full DNS Server ideal for single or hosting servers
-  https://www.junedns.com
 </p>
 
-# [☀️JuNeDNS Backend](https://junedns.com "JuNeDNS Backend")
+# [☀️JuNeDNS Backend](https://github.com/EduardoRuizM/junedns-backend "JuNeDNS Backend")
 ## 🌐 Backend for [JuNeDNS Server](https://github.com/EduardoRuizM/junedns-server "JuNeDNS Server")
 
 JuNeDNS is a lightweight DNS server and backend created in Node.js with a fully functionality and easy installation and use. With templates to easily create domain zones.
@@ -18,7 +17,7 @@ JuNeDNS is a lightweight DNS server and backend created in Node.js with a fully 
 # Author
 [Eduardo Ruiz](https://github.com/EduardoRuizM) <<eruiz@dataclick.es>>
 
-# [JuNe](https://just-needed.com "JuNe") / JUst NEeded Philosophy
+# JuNe / JUst NEeded Philosophy
 1. **Source code using less code as possible**
   So you can understand code and find bugs easier.
 2. **Few and optimized lines is better**
@@ -101,7 +100,7 @@ Install dependencies `npm install` (JuNe 1 dependence: MySQL).
     - Create service `sc create "JuNeDNS Backend" binPath="NodeJS_PATH\node JuNeDNS_Backend_PATH\backend.js"` start with `net start "JuNeDNS Backend"`
 
 #### 4.2 Running from binaries (x64 bits)
-Download and decompress your version: [🐧Linux](https://junedns.com/file/junedns-backend-linux.zip "Linux") (20 Mb), [🪟 Windows](https://junedns.com/file/junedns-backend-win.zip "Windows") (17 Mb) or [🍎MacOS](https://junedns.com/file/junedns-backend-macos.zip "MacOS") (20 Mb).
+Download and decompress your version: [🐧Linux](https://drive.google.com/file/d/1trMw2La5ctz45J8D1q9zw7ficMR4gFGs/view?usp=sharing "Linux") (20 Mb), [🪟 Windows](https://drive.google.com/file/d/1JBNyxFWd30J9pFb5wPX-dfh99A3KKUUu/view?usp=sharing "Windows") (17 Mb) or [🍎MacOS](https://drive.google.com/file/d/19kUNRZ6_1Cs-M5Nx0FldoJ6qKrDKNgBQ/view?usp=sharing "MacOS") (20 Mb).
 Create [junedns.conf](./junedns.conf "junedns.conf")
 
 - **Running from command line** (for example to debug with **log=3**)
@@ -154,7 +153,7 @@ Create the admin user to login and first steps, using createuser param in comman
 - Domain and Records changes only if `users.is_admin=1` or `permissions.readonly=0`
 
 | Endpoint | Action | Method | POST Variables | Return variables |
-| --- | --- | :---: | --- |
+| --- | --- | :---: | --- | --- |
 | **/login** | Login user (all users) | POST | user, passwd | user, types |
 | **/users** | Retrieve users | GET | - | users array |
 | **/users** | Create user | POST | code, passwd, name, is_admin, domains | - |
@@ -266,7 +265,7 @@ Two templates to create domain DNS zones, you can create your owns in database t
 With translated JSON message as `message` variable in return BODY, or content response if 200:
 
 | Status | Response | Sample message |
-| :---: | --- | --- | --- |
+| :---: | --- | --- |
 | 200 | Ok | - |
 | 201 | Created | *Created* |
 | 400 | Bad Request | *Already exists* |
@@ -276,10 +275,10 @@ With translated JSON message as `message` variable in return BODY, or content re
 
 ## 🏳Languages
 Availables for `lang` GET parameter.
-Help us to translate JuNeDNS in your language 📩 info@junedns.com
+Help us to translate JuNeDNS in your language 📩 info@dataclick.es
 
 | Code | Short code | Language |
-| :---: | --- |
+| :---: | --- | --- |
 | en-US | en | 🇬🇧 English |
 | es-ES | es | 🇪🇸 Español |
 | fr-FR | fr | 🇫🇷 Français |
@@ -447,17 +446,20 @@ In database token system, it´s very complicated to discover the token, which wo
 ## Included to make this project [JuNe BackServer](https://github.com/EduardoRuizM/june-backserver "JuNe BackServer")
 
 # JuNeDNS Server & Frontend & No-IP
+
 https://github.com/EduardoRuizM/junedns-server
+
 https://github.com/EduardoRuizM/junedns-frontend
+
 https://github.com/EduardoRuizM/junedns-noip
 
 # Trademarks©️
 **Dataclick Olimpo JuNeDNS**
-- [Dataclick.es](https://www.dataclick.es "Dataclick.es") is a software development company since 2016.
+- [Dataclick.es](https://www.dataclick.es "Dataclick.es") is a software development company since 2006.
 - [Olimpo](https://www.dataclick.es/en/technology-behind-olimpo.html "Olimpo") is a whole solution software to manage all domains services such as hosting services and to create Webs in a server.
-- [JuNe](https://just-needed.com "JuNe") / JUst NEeded Philosophy, available software and development solutions.
-- [JuNeDNS](https://junedns.com "JuNeDNS") is a part of Dataclick Olimpo domains management for DNS service, released to Internet community.
-- Feel free to use JuNeDNS acording MIT license respecting the brand and image logotype that you can use.
+- JuNe / JUst NEeded Philosophy, available software and development solutions.
+- [JuNeDNS](https://github.com/EduardoRuizM/junedns-server "JuNeDNS") is a part of Dataclick Olimpo domains management for DNS service, released to Internet community.
+- Feel free to use JuNeDNS according MIT license respecting the brand and image logotype that you can use.
 
 # Files
 | File | Description |
